@@ -42,11 +42,11 @@ def main():
         if menu_selection == 1:  # Encode a password
             password = input("Please enter your password to encode: ")
             encoded_password = encode(password)
-            print("Your password has been encoded and stored!")
+            print("Your password has been encoded and stored!\n")
 
         elif menu_selection == 2:  # Decode a password
             print(f"The encoded password is {encoded_password}, and "
-                  f"the original password is {decode(encoded_password)}.")
+                  f"the original password is {decode(encoded_password)}.\n")
 
         elif menu_selection == 3:  # Quit the program
             break
